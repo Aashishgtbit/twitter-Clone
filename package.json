@@ -1,0 +1,32 @@
+{
+  "name": "AwesomeNativeBase",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "flow": "flow"
+  },
+  "dependencies": {
+    "native-base": "^2.3.3",
+    "react": "16.0.0",
+    "react-native": "0.50.4",
+    "react-native-elements": "^0.18.5",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-searchbar": "^1.14.0",
+    "react-native-vector-icons": "^4.4.3",
+    "react-navigation": "^1.0.0-beta.21"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "21.2.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "4.0.0",
+    "flow-bin": "^0.56.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
