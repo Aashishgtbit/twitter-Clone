@@ -9,6 +9,7 @@
   Create React Native project
 
 react-native init project name
+
 cd project name
 
 Install NativeBase
