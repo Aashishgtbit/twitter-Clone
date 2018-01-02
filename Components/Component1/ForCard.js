@@ -44,7 +44,7 @@ export default class ForCard extends React.Component{
 			              <Body>
 			                <Button transparent>
 			                  <Icon active name="chatbubbles" />
-			                  <Text>60</Text>
+			                  <Text>16</Text>
 			                </Button>
 			              </Body>
 			              <Body>
@@ -58,7 +58,7 @@ export default class ForCard extends React.Component{
 				                <Button transparent>
 				                  <Icon active name="heart" />
 
-				                  <Text> 4 </Text>
+				                  <Text> 40 </Text>
 				                </Button>
 				          </Body>
 
