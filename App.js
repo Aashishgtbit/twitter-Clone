@@ -177,17 +177,9 @@ const MainScreenNavigator = TabNavigator(
                                               elevation:0,
 
                                         },
-
-
                         }),
-
                       },
-
-
-
-
-
-                    });
+              });
 
 
 //Drawer portion.
@@ -209,69 +201,32 @@ const RootDrawer = DrawerNavigator(
         },
               Profile: {
                 screen: ProfileScreen,
-                navigationOptions: {
-                  drawerLabel: 'Profile',
-                  drawerIcon: ({ tintColor, focused }) => (
-                    <Ionicons
-                      name={focused ? 'ios-person' : 'ios-person-outline'}
-                      size={26}
-                      style={{ color: tintColor }}
-                    />
-                  ),
-                },
-              },
+                      },
 
               List: {
                 screen: ListScreen,
-                navigationOptions: {
-                  drawerLabel: 'List',
-                  drawerIcon: ({ tintColor, focused }) => (
-                    <Ionicons
-                      name={focused ? 'ios-list-box' : 'ios-list-box'}
-                      size={26}
-                      style={{ color: tintColor }}
-                    />
-                  ),
-                },
+
               },
 
               Moments: {
                 screen: MomentsScreen,
-                navigationOptions: {
-                  drawerLabel: 'Moments',
-                  drawerIcon: ({ tintColor, focused }) => (
-                    <Ionicons
-                      name={focused ? 'ios-flash' : 'ios-flash'}
-                      size={26}
-                      style={{ color: tintColor }}
-                    />
-                  ),
-                },
+
               },
 
 
               HighLights: {
                 screen: HighlightsScreen,
-                navigationOptions: {
-                  drawerLabel: 'HighLights',
-                  drawerIcon: ({ tintColor, focused }) => (
-                    <Ionicons
-                      name={focused ? 'ios-bookmarks' : 'ios-bookmarks'}
-                      size={26}
-                      style={{ color: tintColor }}
-                    />
-                  ),
-                },
+
               },
-
-
-
-
 
 
 
       },
           {
+            drawerOpenRoute: 'DrawerOpen',
+            drawerCloseRoute: 'DrawerClose',
+            drawerToggleRoute: 'DrawerToggle',
+
             contentComponent: props => <SideBar {...props} />
           }
 

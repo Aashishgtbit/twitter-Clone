@@ -1,3 +1,4 @@
+
 import { AppRegistry,Image } from 'react-native';
 import App from './App';
 import ForCard from './Components/Component1/ForCard';
