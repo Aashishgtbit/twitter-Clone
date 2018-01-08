@@ -226,7 +226,11 @@ const RootDrawer = DrawerNavigator(
             drawerOpenRoute: 'DrawerOpen',
             drawerCloseRoute: 'DrawerClose',
             drawerToggleRoute: 'DrawerToggle',
+<<<<<<< HEAD
 
+=======
+           
+>>>>>>> ba17acb472dfb1fc9f137d080a72167b38f4c01c
             contentComponent: props => <SideBar {...props} />
           }
 
