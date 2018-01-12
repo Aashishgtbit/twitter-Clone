@@ -14,5 +14,5 @@
   * npm install --save react-navigation (to install the latest version of react-navigation).
   * npm install react-native-vector-icons --save 
 
-  
+You can also install this app on your phone using this link https://drive.google.com/open?id=1_OqmQn37kVeYXupQN4ni3rWjjnO4q2n8 .
   
